@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+:root {
+  --main-color: #094627;
+  --color-grey: #808080;
+  --color-random: #e67330;
+}
+/* konten daftar produk */
+.daftar {
+  width: 82%;
+  margin-left: 230px;
+  margin-top: -30px;
+  background-color: #ffffff;
+  padding: 10px;
+  overflow: hidden;
+}
+/* judul */
+.daftar h2 {
+  color: var(--main-color);
+  border-bottom: 3px solid var(--main-color);
+  margin: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+/* tombol tambah */
+.daftar h2 a {
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1rem;
+  padding: 5px;
+  display: block;
+  float: right;
+  text-align: center;
+  color: #ffffff;
+  background-color: var(--color-random);
+}
+/* jika tombol tambah ditekan */
+.daftar h2 a:hover {
+  background-color: var(--main-color);
+}
+/* kotak list produk */
+.list-produk {
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px;
+  padding: 10px;
+  float: left;
+  width: 230px;
+  margin: 7px;
+}
+/* jika kotak list produk ditekan */
+.list-produk:hover {
+  transition-duration: 500ms;
+  background-color: var(--color-random);
+}
+/* gambar pada list produk */
+.list-produk img {
+  width: 100%;
+  height: 200px;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+/* pengaturan font */
+.list-produk h4,
+.list-produk h5 {
+  color: var(--main-color);
+  text-align: center;
+  margin-bottom: 3px;
+}
+/* tombol */
+.btn {
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 5px;
+  display: block;
+  float: left;
+  width: 45%;
+  margin: 5px;
+  text-align: center;
+  color: #ffffff;
+}
+/* jika tombol ditekan */
+.btn:hover {
+  background-color: var(--main-color);
+  transition-duration: 500ms;
+}
+/* warna tombol pinjam */
+.btn-pinjam {
+  background-color: #09ff00;
+}
+/* warna tombol hapus */
+.btn-hapus {
+  background-color: #ff0000;
+}
+/* beli produk */
+.beliproduk {
+  width: 300px;
+  height: 300px;
+  display: block;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 15px;
+  box-shadow: 0 0 10px var(--color-grey);
+}
+/* tombol beli */
+.klik {
+  padding: 10px;
+  padding-left: 265px;
+  padding-right: 265px;
+  background: var(--main-color);
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+/* jika tombol beli ditekan */
+.klik:hover {
+  background: var(--color-random);
+}

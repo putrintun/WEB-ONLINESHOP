@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+:root {
+  --main-color: #094627;
+  --color-grey: #808080;
+  --color-random: #e67330;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* base website */
+body {
+  background-color: #d3d3d3;
+  font-family: sans-serif;
+}
+/* letak kotak */
+.login {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* desain kotak */
+.form {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  padding: 80px 40px 40px;
+  background: var(--main-color);
+  border-radius: 10px;
+  color: #ffffff;
+  box-shadow: 0px 10px 25px 10px var(--color-grey);
+}
+/* desain gambar dalam kotak */
+.form img {
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  width: 100px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+/* tulisan h2 */
+.form h2 {
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+/* inputan dari input grup */
+.form .input-group input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  outline: none;
+  background-color: transparent;
+  color: inherit;
+}
+/* label dari input grup */
+.form .input-group label {
+  position: absolute;
+  padding: 10px 0;
+  pointer-events: none;
+  transition: 0.3s ease-out;
+}
+/* supaya dapat berpindah */
+.form .input-group input:focus + label,
+.form .input-group input:valid + label {
+  transform: translateY(-18px);
+  color:#9bd1b6;
+  font-size: 0.8rem;
+}
+/* tombol tombol */
+.submit {
+  border: none;
+  outline: none;
+  background: #ffffff;
+  color: var(--main-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+/* jika tombol ditekan */
+.submit:hover {
+  background: #9bd1b6;
+  color: #ffffff;
+}

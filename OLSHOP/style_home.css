@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+:root {
+  --main-color: #094627;
+  --color-grey: #808080;
+  --color-random: #e67330;
+}
+/* letak konten */
+.main-content {
+  margin-left: 250px;
+}
+/* ukuran konten */
+main {
+  padding: 6.5rem 1.5rem;
+  background: #ffffff;
+  min-height: 100vh;
+}
+/* sampul foto */
+.container {
+  width: 982px;
+  height: 125px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+/* pengaturan foto sampul */
+.img-header {
+  width: 100%;
+  z-index: -1;
+}
+/* pengaturan kotak */
+.card {
+  position: absolute;
+  opacity: 90%;
+  width: 925px;
+  height: 110px;
+  align-items: center;
+  margin-left: 27px;
+  margin-top: -91px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  border-radius: 10px;
+}
+/* ukuran font */
+.card div:last-child span {
+  font-size: 3rem;
+}
+/* warna background */
+.card:last-child {
+  background: var(--main-color);
+}
+/* warna font */
+.card:last-child h1,
+.card:last-child div:first-child span,
+.card:last-child div:last-child span {
+  color: #ffffff;
+}

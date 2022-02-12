@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+:root {
+  --main-color: #094627;
+  --color-grey: #808080;
+  --color-random: #e67330;
+}
+/* pengaturan halaman */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+/* memilih font */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+/* header */
+header {
+  position: fixed;
+  background: #ffffff;
+  padding: 13px;
+  padding-left: 35px;
+  width: 100%;
+  height: 78px;
+  border-top: 8px solid var(--main-color);
+  box-shadow: 0px 0px 10px 0px var(--color-grey);
+}
+/* membuat tulisan sttarbucks */
+.left-area h1 {
+  color: var(--main-color);
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 1000;
+}
+/* tombol logout */
+.logout {
+  padding: 10px;
+  background: var(--main-color);
+  text-decoration: none;
+  float: right;
+  margin-top: -46px;
+  margin-right: 40px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+/* jika tombol logout ditekan */
+.logout:hover {
+  background: var(--color-random);
+}
+/* tombol cart */
+.cart {
+  padding: 10px;
+  background: var(--main-color);
+  text-decoration: none;
+  float: right;
+  margin-top: -46px;
+  margin-right: 140px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+/* jika tombol cart ditekan */
+.cart:hover {
+  background: var(--color-random);
+}
+/* sidebar */
+.sidebar {
+  background: var(--main-color);
+  margin-top: 78px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+}
+/* sidebar foto */
+.sidebar .profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+/* sidebar nama */
+.sidebar h2 {
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+/* margin atas */
+.sidebar-menu {
+  margin-top: 1rem;
+}
+/* antar menu */
+.sidebar-menu li {
+  width: 100%;
+  margin-bottom: 1.7rem;
+  padding-left: 1rem;
+}
+/* tulisan menu */
+.sidebar-menu a {
+  padding-left: 30px;
+  display: block;
+  color: #ffffff;
+  font-size: 20px;
+}
+/* menu yang aktif */
+.sidebar-menu a.active {
+  background: #ffffff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: var(--main-color);
+  border-radius: 30px 0px 0px 30px;
+}
+/* ukuran dalam span */
+.sidebar-menu a span:first-child {
+  font-size: 1.5rem;
+  padding-right: 1rem;
+}

@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+:root {
+  --main-color: #094627;
+  --color-grey: #808080;
+  --color-random: #e67330;
+}
+/* pengaturan tabel */
+table {
+  position: absolute;
+  left: 283px;
+  top: 110px;
+  width: 75%;
+  border-spacing: 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--color-grey);
+  overflow: hidden;
+}
+/* pengaturan baris kolom */
+td,
+th td,
+th {
+  padding: 10px 20px;
+  text-align: center;
+}
+/* pengaturan kolom */
+th {
+  background-color: var(--main-color);
+  color: #ffffff;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+/* baris */
+tr {
+  width: 100%;
+  font-size: small;
+  background-color: #fafafa;
+}
+/* warna baris berbeda */
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+/* tombol ubah */
+.ubah {
+  padding: 5px;
+  background: #09ff00;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  color: #ffffff;
+}
+/* jika tombol ubah ditekan */
+.ubah:hover {
+  background: var(--main-color);
+}
+/* tombol hapus */
+.hapus {
+  padding: 5px;
+  background: #ff0000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+/* jika tombol hapus ditekan */
+.hapus:hover {
+  background: var(--main-color);
+}
+.tambah {
+  padding: 10px;
+  padding-left: 413px;
+  padding-right: 413px;
+  background: var(--main-color);
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+/* jika tombol tambah ditekan */
+.tambah:hover {
+  background: var(--color-random);
+}
+/* pengaturan baris tertentu */
+.td-full {
+  padding: 15px 0px;
+}
+/* tombol belum bayar */
+.belum {
+  background-color: #ff0000;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+/* tombol sudah bayar */
+.sudah {
+  background-color: #094627;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+/* tombol */
+.btn {
+  background-color: #e67330;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+/* tombol ditekan */
+.btn:hover {
+  background: #094627;
+}
